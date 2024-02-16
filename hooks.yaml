@@ -1,0 +1,6 @@
+- id: prettier-docker
+  name: prettier (via docker)
+  description: prettier, but provided by docker
+  entry: prettier
+  language: docker
+  files: \.(css|js|scss)$
