@@ -1,0 +1,6 @@
+- id: prettier-docker
+  name: prettier (via docker)
+  description: prettier, but provided by docker
+  entry: ./run-prettier.sh
+  language: script
+  files: \.(css|js|scss)$
